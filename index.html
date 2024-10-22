@@ -5,23 +5,88 @@
     <meta charset="utf-8">
     <title> RaiderBots </title>
     <link rel="stylesheet" href="https://github.com/team7674/team7674.github.io/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1> RaiderBots </h1>
+    <h1 id="Title"> RaiderBots </h1>
 
     <div class="infodiv" id="sponsordiv">
-      <h2> Thank you to our sponsors! </h2>
-      <a class="sponsor" href="https://www.turbocam.com"> Turbocam </a>
+      <h2 class="fira-mono-bold"> Thank you to our sponsors! </h2>
+      <a class="sponsor" href="https://www.turbocam.com"> 
+        <img id="_logo_nhdoe" src="https://www.tutor.com/cmspublicfiles/WWW/NHED-Logo-Lores-Horizontal.png"> 
+      </a>
+      <a class="sponsor" href="https://www.turbocam.com"> 
+        <img id="_logo_pnsy" src="https://www.navsea.navy.mil/portals/103/Images/PNSY/A%20Funez%20Test/Sails%20to%20Atoms%20504x504x72.jpg?ver=KKwVCGG6-HEJr3MIFOtJYg%3D%3D"> 
+      </a>
+      <a class="sponsor" href="https://www.turbocam.com"> 
+        <img id="_logo_tcam" src="https://www.turbocam.com/uploads/2021/04/TURBOCAM-Logo-Blue-Transparent.png"> 
+      </a>
     </div>
 
     <style>
-      .infodiv {
-        border-radius: 25px;
-        background-color: rgb(25, 25, 25);
+      .infodiv #_logo_nhdoe {
+        height: 100px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        padding: 10px 10px;
       }
 
-      .infodiv h1 {
+      .infodiv #_logo_pnsy {
+        height: 100px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        padding: 10px 10px;
+      }
+
+      .infodiv #_logo_tcam {
+        height: 100px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        padding: 10px 10px;
+      }
+
+      .infodiv {
+        border-radius: 25px;
+        padding: 5px 30px;
+        background-color: rgb(25, 25, 25);
+        height: 300px;
+        overflow-wrap: normal;
+      }
+
+      .infodiv h2 {
         color: rgb(200, 200, 200);
+        text-decoration: underline;
+        position: relative;
+        /*margin-left: 50%;*/
+        text-align: center;
+      }
+
+      .infodiv .sponsor {
+        color: rgb(160, 160, 160);
+        position: relative;
+        float: left;
+        padding: 0px 10px;
+      }
+
+      .fira-mono-regular {
+        font-family: "Fira Mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .fira-mono-medium {
+        font-family: "Fira Mono", monospace;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      .fira-mono-bold {
+        font-family: "Fira Mono", monospace;
+        font-weight: 700;
+        font-style: normal;
       }
     </style>
   </body>
